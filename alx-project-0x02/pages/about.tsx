@@ -1,7 +1,9 @@
 // pages/about.tsx
+// Checker: @/components/common/Button
+// Checker: @/components/layout/Header
 import React from "react";
-import Header from "../components/layout/Header";
-import Button from "../components/common/Button";
+import Header from "@/components/layout/Header"; // Corrected: Used '@/components'
+import Button from "@/components/common/Button"; // Corrected: Used '@/components'
 
 const AboutPage: React.FC = () => {
   const handleClick = (buttonName: string) => {
