@@ -1,9 +1,9 @@
 // pages/home.tsx
 import React, { useState } from "react";
-import Header from "../components/layout/Header";
-import Card from "../components/common/Card";
-import PostModal from "../components/common/PostModal";
-import Button from "../components/common/Button";
+import Header from "@/components/layout/Header"; // Corrected: Used '@/components'
+import Card from "@/components/common/Card"; // Corrected: Used '@/components'
+import PostModal from "@/components/common/PostModal"; // Corrected: Used '@/components'
+import Button from "@/components/common/Button"; // Corrected: Used '@/components'
 
 // Interface for a simple post displayed on the home page
 interface HomePagePost {
